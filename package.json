@@ -1,0 +1,23 @@
+{
+  "name": "webpacklec1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "webpack-cli": "^4.9.1",
+    "webpack": "^5.65.0"
+  },
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "image-webpack-loader": "^8.0.1",
+    "style-loader": "^3.3.1"
+  },
+  "scripts": {
+    "test": "webpack",
+    "serve": "webpack serve",
+    "build:watch": "webpack --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
